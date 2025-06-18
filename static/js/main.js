@@ -1,4 +1,5 @@
-IMP.init("imp54322068");
+//고객사 식별코드
+IMP.init("imp00000000"); 
 
 const button = document.querySelector("button");
 const merchantUid = new Date().getTime();

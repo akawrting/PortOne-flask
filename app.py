@@ -5,7 +5,7 @@ app = Flask(__name__)  # Flask 애플리케이션 생성
 
 @app.route('/payment')  # 기본 경로 설정
 def home():
-    pay_amount = total_price
+    pay_amount = total_price #결제 금액 설정
     return render_template('payment.html', pay_amount=pay_amount)  # 클라이언트에게 반환할 내용
 
 @app.route('/payment_success')
